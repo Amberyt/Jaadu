@@ -18,9 +18,9 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-Hello {}, Yy name is Jaadu! If you have any questions about how to use me please give me /help... 
+Hello {}, My name is {}! if you have any questions about how to use me please give me /help... 
 
-I am a group manager bot maintained by  [Ranger🇮🇳](tg://user?id={}).
+I am a group manager bot maintained by  [Ranger 🇮🇳](tg://user?id={}).
 
 My future updates will be put into This Channel - @Jaadubotofficial
 
@@ -49,7 +49,7 @@ Hello! my name *{}*.
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll of the following commands  / or ! can  be used...\n")
 
-DONATE_STRING = """Heya, glad to hear that you liked the bot Support us by joining our channels"
+DONATE_STRING = """Heya, glad to hear you want to support. Support us by joining our channel @jaadubotofficial"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -58,7 +58,6 @@ STATS = []
 USER_INFO = []
 DATA_IMPORT = []
 DATA_EXPORT = []
-
 CHAT_SETTINGS = {}
 USER_SETTINGS = {}
 
